@@ -7,6 +7,7 @@ import androidx.glance.GlanceId
 import android.content.Context
 import androidx.glance.appwidget.updateAll
 
+//TODO Create nice GUI :)
 class CalendarWidget : GlanceAppWidget() {
     override suspend fun provideGlance(context: Context, id: GlanceId) {
         // Fetch events (you’ll call this elsewhere, e.g., WorkManager)
